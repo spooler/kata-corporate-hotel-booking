@@ -1,7 +1,12 @@
 package com.kata.domain
 
-interface HotelService {
-    fun addHotel(hotelId: ?, hotelName: ?)
-    fun setRoom(hotelId: ?, number: ?, roomType: ?)
-    fun findHotelBy(hotelId: ?): ?
+class HotelService(hotels: Any) {
+    fun addHotel(hotelId: Int, hotelName: String) {
+        TODO("Not yet implemented")
+    }
+
+    fun findHotelBy(hotelId: Int): Hotel {
+        TODO("Not yet implemented")
+    }
+
 }
