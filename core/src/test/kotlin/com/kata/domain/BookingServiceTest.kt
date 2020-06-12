@@ -2,9 +2,6 @@ package com.kata.domain
 
 import com.kata.domain.booking.BookingService
 import com.kata.domain.booking.Bookings
-import com.kata.domain.hotel.Hotel
-import com.kata.domain.hotel.HotelService
-import com.kata.domain.hotel.Hotels
 import com.kata.domain.hotel.RoomTypes
 import io.mockk.mockk
 import io.mockk.verify
